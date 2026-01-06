@@ -11,6 +11,9 @@
     "start": "node app.js"
   },
   "dependencies": {
-    "express": "^5.0.0"
+    "@supabase/supabase-js": "2.45.4",
+    "dotenv": "^17.2.3",
+    "express": "^5.0.0",
+    "node-fetch": "^2.6.7"
   }
 }

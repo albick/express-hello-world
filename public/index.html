@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Email Submit</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+</head>
+<body>
+
+    <form id="emailForm" method="POST" action="/submit">
+        <h2>Subscribe</h2>
+
+        <input type="email" name="email" placeholder="Enter your email" required>
+
+        <!-- Cloudflare Turnstile widget -->
+        <div class="cf-turnstile" data-sitekey="0x4AAAAAACK5JxQFNr8P8qe4"></div>
+
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+</html>
